@@ -102,6 +102,8 @@ docker compose --profile telegram up -d telegram-bot
 - Lifetime revenue by segment
 - Customers by market and acquisition channel
 
+![Customer Analytics dashboard](assets/customer-analytics-dashboard.jpg)
+
 ## Resetting the demo
 
 The initialization SQL runs only when PostgreSQL creates a new data volume. To rebuild the demo data:
