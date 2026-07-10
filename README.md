@@ -80,6 +80,8 @@ The optional bot in `telegram-bot/` queries the same Trino reporting layer and
 supports `/latest`, `/week`, `/compare`, `/countries`, `/segments`, `/status`,
 and `/dashboard`. Test it without Telegram credentials:
 
+![Telegram KPI bot demo](assets/telegram-kpi-bot-demo.png)
+
 ```bash
 docker compose --profile telegram run --rm telegram-bot python app.py --dry-run all
 ```
