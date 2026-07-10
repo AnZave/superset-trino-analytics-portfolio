@@ -1,0 +1,101 @@
+/* Modern Analytics SaaS theme for Superset dashboards */
+
+.dashboard-content,
+.dashboard-content > div {
+  background: #f5f7fb !important;
+}
+
+.dashboard-header {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid #e7eaf0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06) !important;
+  margin: 14px 16px 8px !important;
+  padding: 10px 16px !important;
+}
+
+.dashboard-component-chart-holder {
+  background: #ffffff !important;
+  border: 1px solid #e7eaf0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 6px 22px rgba(15, 23, 42, 0.06) !important;
+  overflow: hidden !important;
+  transition: transform 180ms ease, box-shadow 180ms ease,
+    border-color 180ms ease !important;
+}
+
+.dashboard-component-chart-holder:hover {
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1) !important;
+  transform: translateY(-2px) !important;
+}
+
+.chart-header,
+.dashboard-component-chart-holder .chart-header {
+  background: transparent !important;
+  padding: 14px 16px 4px !important;
+}
+
+.chart-header .header-title,
+.chart-header .header-title a,
+.dashboard-component-header {
+  color: #172033 !important;
+  font-size: 15px !important;
+  font-weight: 650 !important;
+  letter-spacing: -0.01em !important;
+}
+
+.dashboard-component-chart-holder:nth-of-type(3n + 1) {
+  border-top: 3px solid #14b8a6 !important;
+}
+
+.dashboard-component-chart-holder:nth-of-type(3n + 2) {
+  border-top: 3px solid #4f46e5 !important;
+}
+
+.dashboard-component-chart-holder:nth-of-type(3n) {
+  border-top: 3px solid #22c55e !important;
+}
+
+.dashboard-grid .dragdroppable-row {
+  margin-bottom: 10px !important;
+}
+
+.filter-bar,
+.dashboard-filter-panel {
+  background: #ffffff !important;
+  border-right: 1px solid #e7eaf0 !important;
+  box-shadow: 6px 0 24px rgba(15, 23, 42, 0.04) !important;
+}
+
+.filter-bar h4,
+.dashboard-filter-panel h4 {
+  color: #334155 !important;
+  font-size: 12px !important;
+  font-weight: 650 !important;
+  letter-spacing: 0.02em !important;
+}
+
+.filter-bar .ant-select-selector,
+.dashboard-filter-panel .ant-select-selector,
+.filter-bar input {
+  background: #f8fafc !important;
+  border: 1px solid #dbe2ea !important;
+  border-radius: 10px !important;
+}
+
+.ant-btn-primary {
+  background: #14b8a6 !important;
+  border-color: #14b8a6 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 5px 14px rgba(20, 184, 166, 0.2) !important;
+}
+
+.ant-btn-primary:hover {
+  background: #0f9f91 !important;
+  border-color: #0f9f91 !important;
+}
+
+.dashboard-component-chart-holder .no-results {
+  color: #64748b !important;
+}

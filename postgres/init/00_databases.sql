@@ -1,0 +1,3 @@
+CREATE DATABASE analytics;
+CREATE DATABASE superset;
+
