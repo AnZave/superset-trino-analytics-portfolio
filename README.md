@@ -63,6 +63,8 @@ Implemented native filters:
 - Acquisition channel
 - Product category
 
+![E-commerce Executive Overview dashboard](assets/ecommerce-executive-overview-dashboard.jpg)
+
 The dashboard uses the reusable Modern Analytics SaaS CSS theme from
 `assets/dashboard_theme.css`.
 
